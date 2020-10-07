@@ -1,8 +1,8 @@
 package com.akozlowski.abstractcreator.client;
 
-import com.akozlowski.abstractcreator.factory.CircleFactory;
-import com.akozlowski.abstractcreator.factory.RectangleFactory;
-import com.akozlowski.abstractcreator.factory.SquareFactory;
+import com.akozlowski.abstractcreator.creator.CircleFactory;
+import com.akozlowski.abstractcreator.creator.RectangleFactory;
+import com.akozlowski.abstractcreator.creator.SquareFactory;
 import com.akozlowski.abstractcreator.product.Shape;
 
 public class Client {

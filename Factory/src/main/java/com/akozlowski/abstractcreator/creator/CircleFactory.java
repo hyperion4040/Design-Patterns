@@ -1,4 +1,4 @@
-package com.akozlowski.abstractcreator.factory;
+package com.akozlowski.abstractcreator.creator;
 
 import com.akozlowski.abstractcreator.product.Circle;
 import com.akozlowski.abstractcreator.product.Shape;
