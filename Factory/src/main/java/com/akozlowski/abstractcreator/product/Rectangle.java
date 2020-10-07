@@ -1,4 +1,4 @@
-package com.akozlowski.abstractcreator;
+package com.akozlowski.abstractcreator.product;
 
 
 import org.slf4j.Logger;

@@ -1,0 +1,11 @@
+package com.akozlowski.abstractcreator.factory;
+
+import com.akozlowski.abstractcreator.product.Rectangle;
+import com.akozlowski.abstractcreator.product.Shape;
+
+public class RectangleFactory extends AbstractShapeFactory {
+    @Override
+    protected Shape factoryMethod() {
+        return new Rectangle();
+    }
+}
