@@ -2,7 +2,7 @@ package com.akozlowski.doublecheckedlocking;
 
 public class Singleton {
     // the private reference to one and only instance
-    private volatile static Singleton uniqueInstance = null;
+    private static volatile Singleton uniqueInstance = null;
 
     // an instance attribute
     private int data = 0;
