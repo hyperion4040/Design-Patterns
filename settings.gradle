@@ -3,4 +3,6 @@ include 'Factory'
 include 'AbstractFactory'
 include 'Singleton'
 include 'Builder'
+include 'Creation-Design-Patterns'
+include 'Prototype'
 
