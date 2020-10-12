@@ -1,4 +1,4 @@
-package com.akozlowski;
+package com.akozlowski.prototype;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,9 +10,9 @@ public class Client {
         ShapeCache.loadCache();
 
         final Shape shape = (Shape) ShapeCache.getShape("1");
-        logger.info("Shape is: "+shape.getType());
+        logger.info("Shape is: {}",shape.getType());
 
         final Shape shape1 = ShapeCache.getShape("2");
-        logger.info("Shape is: " + shape1.getType());
+        logger.info("Shape is: {}",shape1.getType());
     }
 }

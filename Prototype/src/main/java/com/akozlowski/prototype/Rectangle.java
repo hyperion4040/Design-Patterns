@@ -1,9 +1,7 @@
-package com.akozlowski;
+package com.akozlowski.prototype;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.util.Hashtable;
 
 public class Rectangle extends Shape {
 

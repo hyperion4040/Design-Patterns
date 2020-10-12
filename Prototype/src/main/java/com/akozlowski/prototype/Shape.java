@@ -1,4 +1,4 @@
-package com.akozlowski;
+package com.akozlowski.prototype;
 
 public abstract class Shape implements Cloneable {
     private String id;

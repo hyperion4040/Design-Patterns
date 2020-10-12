@@ -1,2 +1,14 @@
+src/main/resources/plugins/*.jar
+out
+
 # Project exclude paths
 /.gradle/
+
+# Idea
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Sonar
+.sonar

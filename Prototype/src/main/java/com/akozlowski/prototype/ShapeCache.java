@@ -1,10 +1,14 @@
-package com.akozlowski;
+package com.akozlowski.prototype;
 
+import java.util.Dictionary;
 import java.util.Hashtable;
 
 public class ShapeCache {
 
-    private static Hashtable<String, Shape> shapeMap = new Hashtable<>();
+    private static final Dictionary<String, Shape> shapeMap = new Hashtable<>();
+
+    private ShapeCache() {
+    }
 
     public static Shape getShape(final String shapeId) {
         final Shape cachedShape = shapeMap.get(shapeId);
